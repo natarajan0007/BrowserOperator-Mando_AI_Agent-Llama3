@@ -1,0 +1,70 @@
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.envrc
+
+# Editors/IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# OS generated files
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Secret Keys
+.env
+config.yaml  # Or whatever your config file is named, if it contains secrets
+
+# Playwright-specific
+.playwright/
+playwright-report/
+
+# Deep Research
+deep_research_output/
+
+# Gradio Cache (if any)
+gradio_cached_examples/
+
+# Uploads
+uploads/
+
+# Models (if you are storing model weights locally - HIGHLY discouraged)
+models/
+
+# Traces (can be large)
+traces/
+
+# Recordings (can be large)
+record_videos/
+
+# Agent history
+agent_history/
+
+#Compiled source
+*.com
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Packages
+node_modules/
