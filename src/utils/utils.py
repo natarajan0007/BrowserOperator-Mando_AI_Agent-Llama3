@@ -48,7 +48,7 @@ def get_llm_model(provider: str, **kwargs):
 
 # Predefined model names for common providers
 model_names = {
-    "openai": ["llama-3.2-11b-vision-preview","llama-3.3-70b-versatile"],
+    "openai": ["llama3-8b-8192","llama3-70b-8192","llama-3.2-11b-vision-preview","llama-3.3-70b-versatile"],
 }
 
 # Callback to update the model name dropdown based on the selected provider

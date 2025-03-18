@@ -13,7 +13,7 @@ def default_config():
         "use_vision": False,
         "tool_calling_method": "auto",
         "llm_provider": "openai",
-        "llm_model_name": "llama-3.3-70b-versatile",
+        "llm_model_name": "llama3-70b-8192",
         "llm_num_ctx": 32000,
         "llm_temperature": 1.0,
         "llm_base_url": "",
